@@ -1,0 +1,12 @@
+# Ignore local dependencies (installed again inside the image)
+node_modules
+
+# Ignore old build output
+build
+
+# Ignore security scan reports created by Jenkins
+owasp-report
+*.txt
+
+# Ignore Git history
+.git
